@@ -31,6 +31,17 @@ public class Operadores {
     String resultado = a == b ? "Verdadeiro" : "Falso";
     System.out.println(resultado);
 
+    boolean condicao1 = true;
+    
+    boolean condicao2 = false;
+
+    if(condicao1 && condicao2 ){ // "E"
+        System.out.println("As duas condições são verdadeiras");
+    }
+    if(condicao1 || condicao2 ){ // "OU"
+        System.out.println("Uma das duas condições é verdadeiras");
+    }
+    System.out.println("Fim");
 
     }
 }
